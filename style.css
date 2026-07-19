@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0a0a1a;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Auth Pages */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a0a1a, #1a1a3e);
+}
+
+.auth-box {
+    background: #1a1a2e;
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #333;
+    box-shadow: 0 0 30px rgba(100, 100, 255, 0.2);
+}
+
+.auth-box h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #7c7cff;
+    margin-bottom: 10px;
+}
+
+.auth-box h2 {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    background: #0a0a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.auth-box input:focus {
+    outline: none;
+    border-color: #7c7cff;
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #7c7cff, #5555dd);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.auth-box button:hover {
+    background: linear-gradient(135deg, #5555dd, #3333bb);
+}
+
+.auth-box p {
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa;
+}
+
+.auth-box a {
+    color: #7c7cff;
+    text-decoration: none;
+}
+
+/* Alerts */
+.alert {
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.alert.error {
+    background: rgba(255, 68, 68, 0.2);
+    border: 1px solid #ff4444;
+    color: #ff4444;
+}
+
+.alert.success {
+    background: rgba(0, 204, 102, 0.2);
+    border: 1px solid #00cc66;
+    color: #00cc66;
+}
+
+/* Dashboard */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #7c7cff;
+    font-size: 1.8rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-info span {
+    color: #aaa;
+}
+
+.user-info a {
+    color: #7c7cff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #7c7cff;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.user-info a:hover {
+    background: #7c7cff;
+    color: white;
+}
+
+/* Analyzer */
+.analyzer-box {
+    background: #1a1a2e;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.analyzer-box h2 {
+    color: #7c7cff;
+    margin-bottom: 10px;
+}
+
+.analyzer-box p {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.analyzer-box textarea {
+    width: 100%;
+    padding: 15px;
+    background: #0a0a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+.analyzer-box textarea:focus {
+    outline: none;
+    border-color: #7c7cff;
+}
+
+.analyzer-box button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #7c7cff, #5555dd);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.analyzer-box button:hover {
+    background: linear-gradient(135deg, #5555dd, #3333bb);
+}
+
+/* Result */
+.result-box {
+    background: #1a1a2e;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.result-box h2 {
+    color: #7c7cff;
+    margin-bottom: 20px;
+}
+
+.result-card {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.result-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.scores {
+    margin: 20px 0;
+}
+
+.score-item {
+    margin-bottom: 15px;
+}
+
+.score-label {
+    display: block;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background: #0a0a1a;
+    border-radius: 10px;
+    height: 12px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.score-value {
+    color: #fff;
+    font-weight: bold;
+}
+
+.stats {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+    color: #aaa;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #7c7cff;
+}
+/* History Table */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.history-table th {
+    background: #0a0a1a;
+    color: #7c7cff;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.history-table td {
+    padding: 12px;
+    border-bottom: 1px solid #222;
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.badge-ai {
+    background: rgba(255,68,68,0.2);
+    color: #ff4444;
+    border: 1px solid #ff4444;
+}
+
+.badge-human {
+    background: rgba(0,204,102,0.2);
+    color: #00cc66;
+    border: 1px solid #00cc66;
+}
+/* Source Box */
+.source-box {
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.source-box p {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.source-box h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Source Breakdown */
+.source-breakdown {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+}
+/* ============================
+   Guard AI  Tile Grid Section
+   Add this block to the end of your existing style.css
+   ============================ */
+
+.tile-section {
+    margin-top: 32px;
+}
+
+.tile-heading {
+    color: #e2e8f0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.tile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+@media (max-width: 720px) {
+    .tile-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .tile-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.tile {
+    background: #16213e;
+    border: 1px solid #243456;
+    border-radius: 12px;
+    padding: 28px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #e2e8f0;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.tile:hover {
+    transform: translateY(-3px);
+    border-color: #3b82f6;
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.25);
+}
+
+.tile:focus-visible {
+    outline: 2px solid #60a5fa;
+    outline-offset: 2px;
+}
+
+.tile-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: rgba(59, 130, 246, 0.12);
+    border-radius: 10px;
+}
+
+.tile-label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tile {
+        transition: none;
+    }
+}
+/* Fix autofill blue background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #0a0a1a inset !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 1px solid #333 !important;
+}
+
+.password-wrap {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.password-wrap input {
+    margin-bottom: 0 !important;
+    padding-right: 45px !important;
+    width: 100% !important;
+}
+
+.toggle-pw {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none !important;
+    border: none !important;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+}
