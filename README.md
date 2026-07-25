@@ -2,7 +2,8 @@
 
 AI-powered content creation platform with built-in safety — writing tools protected by real-time plagiarism, brand voice, and prompt-injection detection, powered by IBM Granite via watsonx.ai.
 
-**Challenge:** AI Builders Challenge with IBM Bob — Wildcard Challenge (Intelligent Systems for the Future of Work)
+**Challenge:** AI Builders Challenge with July Creative Industries Challenge
+ (Intelligent Systems for the Future of Work)
 
 ---
 
@@ -20,7 +21,7 @@ A dedicated Prompt Scanner screens every input for injection attacks before it e
 
 Where most AI writing tools stop at generation and leave safety checking to separate, disconnected services, InkGuard AI runs generation and safety review in the same pass — turning a multi-tool, multi-tab workflow into a single dashboard action that returns a ready-to-publish result with its risk rating attached, typically in a few seconds per check rather than the minutes it takes to run the same content through several standalone checkers.
 
-Beyond the platform itself, we've built and open-sourced a range of websites under the InkGuard AI umbrella — including this platform itself, live at `inkguard-ai.42web.io` — made freely available for students to test, explore, and learn from — no strings attached. It's not about profit or recognition; it's about making technology genuinely accessible, so that anyone, regardless of technical background, can pick it up and use it with ease.
+Beyond the platform itself, we've built and open-sourced a range of websites under the InkGuard AI umbrella — including this platform itself, live at `ink.freedev.app` — made freely available for students to test, explore, and learn from — no strings attached. It's not about profit or recognition; it's about making technology genuinely accessible, so that anyone, regardless of technical background, can pick it up and use it with ease.
 
 The result is a complete content workflow — generate, detect, verify, and humanize — all in one dashboard, built to be as effortless for a first-time user as it is powerful for a professional team.
 
@@ -38,7 +39,7 @@ EdTech and content-creation tooling, with a focus on academic integrity and resp
 
 ## Selected Challenge Theme
 
-**Wildcard Challenge — Intelligent Systems for the Future of Work**
+**July Creative Industries Challenge**
 
 InkGuard AI acts as an intelligent co-worker layer for anyone producing written content for work: it automates the repetitive parts of quality and safety review (grammar, plagiarism, brand tone, injection risk) so people can focus on the actual creative and strategic work, while giving teams a transparent, auditable trail of every piece of content that passed through the system.
 
