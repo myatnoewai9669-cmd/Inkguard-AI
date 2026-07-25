@@ -130,7 +130,7 @@ Results → Dashboard (saved to Audit Log)
 
 **Scalability:** the modular architecture (20 independent tools sharing one backend) allows new checks or generators to be added without reworking the core system — able to scale from individual students to institutional use (schools/universities running bulk originality checks) or business teams needing brand-consistent content at volume.
 
-**Beyond the demo:** InkGuard AI is already live and free for students to try at `inkguard-ai.42web.io`. Beyond the challenge, it can integrate with LMS platforms (Google Classroom, Moodle) for automatic assignment screening, or expose an API so other apps can plug in GUARD's trust-layer checks directly.
+**Beyond the demo:** InkGuard AI is already live and free for students to try at `ink.freedev.app`. Beyond the challenge, it can integrate with LMS platforms (Google Classroom, Moodle) for automatic assignment screening, or expose an API so other apps can plug in GUARD's trust-layer checks directly.
 
 ## How IBM Bob Was Used
 
