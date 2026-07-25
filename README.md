@@ -27,8 +27,7 @@ The result is a complete content workflow  generate, detect, verify, and humaniz
 ---
 
 ## Selected Challenge Theme
-
-**Wildcard Challenge  Intelligent Systems for the Future of Work**
+July Creative Industries Challenge
 
 InkGuard AI acts as an intelligent co-worker layer for anyone producing written content for work: it automates the repetitive parts of quality and safety review (grammar, plagiarism, brand tone, injection risk) so people can focus on the actual creative and strategic work, while giving teams a transparent, auditable trail of every piece of content that passed through the system.
 
